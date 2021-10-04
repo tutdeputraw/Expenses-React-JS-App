@@ -32,9 +32,23 @@ module.exports = {
         primary: "#ff4800",
         blue: {
           400: '#4097c2'
-        }
+        },
+        body: "#3f3f3f",
       },
     },
+    backgroundColor: theme => ({
+      'body': '#3f3f3f',
+      'blue-background': '#466c9e',
+      'background-card': '#1f1f1f',
+      'secondary': '#ffed4a',
+      'danger': '#e3342f',
+    }),
+    textColor: {
+      'body': '#3f3f3f',
+      'white': '#ffffff',
+      'secondary': '#ffed4a',
+      'danger': '#e3342f',
+    }
   },
   variants: {
     extend: {},
